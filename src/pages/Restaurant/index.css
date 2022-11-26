@@ -1,0 +1,56 @@
+.restaurant-container {
+  margin-top: 5vh;
+}
+.restaurant-name {
+  font-family: "Rubik", sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+.map-container {
+  width: 50vw;
+  height: 70vh;
+  display: block;
+}
+.card-container {
+  margin-top: 5vh;
+}
+.exclude-button {
+  margin-top: 5vh;
+  background-color: red;
+  border-radius: 3vh;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+}
+.exclude-button h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5vw;
+  color: black;
+  padding: 3vh 1vh;
+  margin-top: 2vh;
+}
+.exclude-button h1:hover {
+  text-decoration: underline;
+}
+
+.menu-data {
+  align-content: center;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .map-container {
+    width: 70vw;
+    height: 40vh;
+  }
+  .exclude-button {
+    height: 5vh;
+  }
+  .exclude-button h1 {
+    font-size: 16px;
+    padding: 1vh 0.3vh;
+  }
+  .restaurant-name {
+    font-size: 8vw;
+  }
+}
